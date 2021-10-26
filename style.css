@@ -1,0 +1,36 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+p{
+  display:block;
+}
+div{
+  display:inline;
+}
+h1.relative{
+  position: relative;
+  left: 170px;
+  right:0px ;
+  bottom:20px;
+}
+ul.relative {
+  position: static;
+  left: 30px;
+  border: 3px dotted #af1d1d;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  border: 3px solid #700ce4;
+}
+span.K {
+  visibility: visible;
+}
+
+div.A {
+  visibility: hidden;
+}
