@@ -8,14 +8,39 @@ p{
 div{
   display:inline;
 }
-h1.relative{
-  position: relative;
+
+span{
+    display: none; 
+  border: 5px solid #af1d1d;
+}
+
+a{
+  display: default;
+}
+
+span.K {
+  visibility: visible;
+}
+
+div.A {
+  visibility: hidden;
+}
+tr.collapse {
+  visibility: collapse;
+}
+
+.inherit a {
+  color: inherit;
+}
+
+h1.static{
+  position: static;
   left: 170px;
   right:0px ;
   bottom:20px;
 }
 ul.relative {
-  position: static;
+  position: relative;
   left: 30px;
   border: 3px dotted #af1d1d;
 }
@@ -27,10 +52,28 @@ div.fixed {
   width: 350px;
   border: 3px solid #700ce4;
 }
-span.K {
-  visibility: visible;
+
+div.relative {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 90px;
+
+  width: 300px;
+  height: 200px;
+  border: 3px solid #73AD21;
 }
 
-div.A {
-  visibility: hidden;
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 7px;
+  width: 60px;
+  background-color: #bdc027;
+  border: 2px solid #850617;
 }
